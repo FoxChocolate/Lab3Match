@@ -21,8 +21,15 @@ namespace MathLab3
 
             tall = t1 * q;
 
-            Console.WriteLine(t1);
-            Console.WriteLine(tall);
+            int pnumber = Convert.ToInt32(tall);
+
+            Console.WriteLine("Ответ C: {0:C}", pnumber);
+            Console.WriteLine("Ответ D: {0:D}", pnumber);
+            Console.WriteLine("Ответ E: {0:E}", pnumber);
+            Console.WriteLine("Ответ F: {0:F}", pnumber);
+            Console.WriteLine("Ответ G: {0:G}", pnumber);
+            Console.WriteLine("Ответ N: {0:N}", pnumber);
+            Console.WriteLine("Ответ P: {0:P}", pnumber);
             Console.ReadKey();
         }
     }
